@@ -101,6 +101,10 @@
 			isa = PBXBuildFile;
 			fileRef = 18CB11289CCCE9F572FE1871;
 		};
+		F4894D0B708E99AD3BB06161 = {
+			isa = PBXBuildFile;
+			fileRef = 15741E1AC57C6C0BB90F85F5;
+		};
 		282468238756C66618425A58 = {
 			isa = PBXBuildFile;
 			fileRef = DBDF5AF95921C35CFF93E750;
@@ -140,6 +144,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = JuceHeader.h;
 			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		15741E1AC57C6C0BB90F85F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_dsp.mm";
+			path = "../../JuceLibraryCode/include_juce_dsp.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
 		1647570F96AEA55DB4B05358 = {
@@ -273,6 +284,13 @@
 			lastKnownFileType = file;
 			name = "juce_data_structures";
 			path = "/Users/cookiemonster/Documents/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		6CEC19BB7632AA7F7368620F = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_dsp";
+			path = "/Users/cookiemonster/Documents/JUCE/modules/juce_dsp";
 			sourceTree = "<absolute>";
 		};
 		73E300D588D03F434271F599 = {
@@ -472,6 +490,7 @@
 				C8BF7ACFB899F3D73E42B450,
 				E84581561E02032E9A2060AB,
 				6304C657E8E92E76A423871C,
+				6CEC19BB7632AA7F7368620F,
 				2699DD8441D646D243C625B8,
 				01D4557FF9FBF9B8E8BCB7FF,
 				1647570F96AEA55DB4B05358,
@@ -493,6 +512,7 @@
 				FD81078E404D3285B6325A66,
 				DCB77F1D36B6E74CAD57FC73,
 				18CB11289CCCE9F572FE1871,
+				15741E1AC57C6C0BB90F85F5,
 				DBDF5AF95921C35CFF93E750,
 				757A6CAA7023BC901EF741FC,
 				49040C4570C01167EB2CD017,
@@ -778,6 +798,7 @@
 				48269B36823870D50B48F28B,
 				6C100087AF66405FB1D7A66A,
 				6028A248BD64F0E856F612A1,
+				F4894D0B708E99AD3BB06161,
 				282468238756C66618425A58,
 				D291651DECFE4A5CB795FC60,
 				C09E6CE9F2DEC81C9CC1BCDE,

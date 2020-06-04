@@ -1,8 +1,6 @@
 /*
   ==============================================================================
-
     This file was auto-generated!
-
   ==============================================================================
 */
 
@@ -60,8 +58,15 @@ void MainComponent::releaseResources()
 void MainComponent::paint (Graphics& g)
 {
     // (Our component is opaque, so we must completely fill the background with a solid colour)
-    g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
+    g.fillAll(Colours::lightsteelblue);
+    //ugly checkerboard
+//     g.fillCheckerBoard(getBounds().toFloat(), 20, 20, Colours::skyblue, Colours::black);
+    g.setColour(Colours::white);
 
+    g.setFont(40.0f);
+    g.drawText ("Hello, World!", getLocalBounds(), Justification::centred, true);
+   
+   
     // You can add your drawing code here!
 }
 
