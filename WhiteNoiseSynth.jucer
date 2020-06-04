@@ -2,13 +2,15 @@
 
 <JUCERPROJECT id="GQgSDX" name="WhiteNoiseSynth" projectType="guiapp" jucerVersion="5.4.7">
   <MAINGROUP id="dshwsX" name="WhiteNoiseSynth">
+    <GROUP id="{E0F9F12D-7F71-ECBC-BFFD-9E7E1DD795EB}" name="Assets">
+      <FILE id="Teehpa" name="wtfIcon.png" compile="0" resource="1" file="../../Desktop/wtfIcon.png"/>
+    </GROUP>
     <GROUP id="{60E21586-75DB-B202-8EB0-60D87ABB8B08}" name="Source">
       <FILE id="A5tbAj" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="a4kPUU" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
       <FILE id="E0WblW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
     </GROUP>
-    <FILE id="Teehpa" name="wtfIcon.png" compile="0" resource="1" file="../../Desktop/wtfIcon.png"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">

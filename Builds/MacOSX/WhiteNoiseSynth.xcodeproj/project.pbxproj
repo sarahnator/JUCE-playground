@@ -486,6 +486,14 @@
 			path = "../../JuceLibraryCode/include_juce_core.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		E20D8D5992E1A7DB52C015A5 = {
+			isa = PBXGroup;
+			children = (
+				B5B3B16C832427921AF2C3FA,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		4A3E94C0D0B49D7B21126439 = {
 			isa = PBXGroup;
 			children = (
@@ -499,8 +507,8 @@
 		FF8E8F866113224862E1C286 = {
 			isa = PBXGroup;
 			children = (
+				E20D8D5992E1A7DB52C015A5,
 				4A3E94C0D0B49D7B21126439,
-				B5B3B16C832427921AF2C3FA,
 			);
 			name = WhiteNoiseSynth;
 			sourceTree = "<group>";
