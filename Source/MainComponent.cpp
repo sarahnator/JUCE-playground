@@ -66,7 +66,13 @@ void MainComponent::paint (Graphics& g)
     g.setFont(40.0f);
     g.drawText ("Hello, World!", getLocalBounds(), Justification::centred, true);
    
-   
+    Image myFace = ImageFileFormat::loadFrom(BinaryData::wtfIcon_png, BinaryData::wtfIcon_pngSize);
+
+    AffineTransform transform = AffineTransform::scale (0.4f);
+    g.addTransform(transform);
+
+    g.drawImageWithin(myFace, getWidth(), 0, getWidth()/2, getHeight() + getHeight()/2, RectanglePlacement(), false);
+    
     // You can add your drawing code here!
 }
 

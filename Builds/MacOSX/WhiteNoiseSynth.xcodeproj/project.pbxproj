@@ -69,6 +69,10 @@
 			isa = PBXBuildFile;
 			fileRef = 32BAE7BE1BD4F9ABC1FEAF53;
 		};
+		B95D54E4D700D69A69FAE9C5 = {
+			isa = PBXBuildFile;
+			fileRef = 4450C5A38C514FEE528A8B08;
+		};
 		F229B627FE02B4576F4C440C = {
 			isa = PBXBuildFile;
 			fileRef = 1C1E6F780875467132DBA5C7;
@@ -230,6 +234,13 @@
 			path = WhiteNoiseSynth.app;
 			sourceTree = "BUILT_PRODUCTS_DIR";
 		};
+		4450C5A38C514FEE528A8B08 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
 		46624634FFEE2AA6B8951AF7 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -277,6 +288,13 @@
 			lastKnownFileType = sourcecode.c.h;
 			name = AppConfig.h;
 			path = ../../JuceLibraryCode/AppConfig.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		54A7BEFF427C67841577DEE9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		6304C657E8E92E76A423871C = {
@@ -341,6 +359,13 @@
 			name = "juce_audio_processors";
 			path = "/Users/cookiemonster/Documents/JUCE/modules/juce_audio_processors";
 			sourceTree = "<absolute>";
+		};
+		B5B3B16C832427921AF2C3FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			name = wtfIcon.png;
+			path = ../../../../Desktop/wtfIcon.png;
+			sourceTree = "SOURCE_ROOT";
 		};
 		B838237CA02A7FEAAF6F1B17 = {
 			isa = PBXFileReference;
@@ -475,6 +500,7 @@
 			isa = PBXGroup;
 			children = (
 				4A3E94C0D0B49D7B21126439,
+				B5B3B16C832427921AF2C3FA,
 			);
 			name = WhiteNoiseSynth;
 			sourceTree = "<group>";
@@ -504,6 +530,8 @@
 			isa = PBXGroup;
 			children = (
 				50126BDE4178C4B0FC2C2438,
+				4450C5A38C514FEE528A8B08,
+				54A7BEFF427C67841577DEE9,
 				1C1E6F780875467132DBA5C7,
 				C4577D0131F7415129674B79,
 				4F812B8928F81DCEC6AD0CFE,
@@ -790,6 +818,7 @@
 			files = (
 				4F3FFA8267FB8F99947A191E,
 				0D2E456CD518F2925A985001,
+				B95D54E4D700D69A69FAE9C5,
 				F229B627FE02B4576F4C440C,
 				3552BED94A233163C87DBD03,
 				C1D3AEC3885C0571383A18EF,

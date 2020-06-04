@@ -8,6 +8,7 @@
             file="Source/MainComponent.cpp"/>
       <FILE id="E0WblW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
     </GROUP>
+    <FILE id="Teehpa" name="wtfIcon.png" compile="0" resource="1" file="../../Desktop/wtfIcon.png"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
