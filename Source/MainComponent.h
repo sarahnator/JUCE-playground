@@ -7,6 +7,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include <juce_dsp/juce_dsp.h>
 
 //==============================================================================
 /*
@@ -19,6 +20,9 @@ public:
     //==============================================================================
     MainComponent();
     ~MainComponent();
+    //==============================================================================
+    void processBlock(AudioBuffer<float>& buffer, MidiBuffer& midiMessages);
+
 
     //==============================================================================
     void prepareToPlay (int samplesPerBlockExpected, double sampleRate) override;
@@ -33,6 +37,8 @@ private:
     //==============================================================================
     // Your private member variables go here...
     Random random;
+    
+//    dsp::ProcessorDuplicator<dsp::FIR::Filter<float>, dsp::FIR::Coefficients<float>> filter;
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

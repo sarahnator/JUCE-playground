@@ -43,6 +43,7 @@ void MainComponent::getNextAudioBlock (const AudioSourceChannelInfo& bufferToFil
         for (auto sample = 0; sample < bufferToFill.numSamples; ++sample)
             buffer[sample] = random.nextFloat() * 0.25f - 0.125f;
     }
+
 }
 
 void MainComponent::releaseResources()
